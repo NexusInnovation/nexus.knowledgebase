@@ -1,3 +1,15 @@
+# Prémisse
+Nous utilisons chez Nexus une foule d'outils et technologies dans le cadre de notre travail. Vous trouverez ici une liste de sujets et de ressources assez large, sans non plus aller dans le détail extrême. Bref, il y a d'autres outils que nous utilisons qui n'y figurent pas. Il n'en demeure pas moins que si vous connaissez l'ensemble de ces éléments, vous êtes en terrain connu.
+
+Quel est le but ici avec ceci ? D'abord ça se veut un outil de référence pour notre équipe interne. Tout individu a ses forces et faiblesses et il est difficile de tout maitriser, alors quelqu'un qui veut se familiariser avec un sujet précis peut s'inspirer de ce qui se trouve ici comme point de départ. On cible ici des ressources pour se _familiariser_ avec un sujet et non nécessairement en devenir un expert. 
+
+Nous rendons cette base de connaissance publique pour plusieurs raisons. Nous croyons que toute personne intéressée à rejoindre Nexus devrait avoir l'opportunité de se former sur ce que nous utilisons au préalable au lieu d'émettre des hypothèses sur ce qu'elle _doit_ connaitre. Ceci permet aussi de retirer tout ambiguité; si ces technologies ne vous parlent pas, vous risquez d'avoir quelques déceptions. Tout est en mouvement, alors ça ne restera pas figé ainsi, mais il y a quand même des éléments qui sont clés : nous sommes sur Azure, alors nous n'irons pas sur AWS ou faire du _on-premise_ ni devenir une compagnie de Java. Enfin, si vous ne l'avez pas déjà deviné, nous ne sommes pas des monstres sanguinaires ➡️ si vous passez une entrevue avec nous, nous espérons (vraiment !) que tout y soit afin que vous réussissiez. Cette documentation est un outil de plus afin de vous aider à réussir. 
+
+Si jamais vous pensez que d'apprendre tout ça, surtout en par coeur avant de passer une entrevue pour avoir un poste chez Nexus vous offrira un _golden ticket_, nous espérons vous rassurer en vous disant que ça n'est pas le cas. Bien que certains éléments peuvent être discutés ou traités, nous n'aimons pas particulièrement que des réponses de par coeur nous soient récitées. Maitriser tout ça n'est pas une attente non plus.
+
+Si jamais vous avez des recommandations à nous faire sur des ressources additionnelles pour certains sujets, vous êtes les bienvenus à collaborer à cette liste avec nous. 
+
+# MindMap
 Le MindMap suivant permet d'avoir un aperçu graphique de l'ensemble des outils que nous utilisons. Des couleurs ont été appliquées afin de vous aider à prioriser les éléments qui pourront vous servir. Voici leur codification et les raisons qui font que nous établissons une couleur pour un sujet :
 
 Vert : Important à court terme, on s'en sert déjà dans la grande majorité des projets ou ça fait parti de nos objectifs
@@ -8,6 +20,7 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
 
 ![image](https://github.com/NexusInnovation/nexus.knowledgebase/assets/16260956/fc6c0df1-cc10-46cf-8a94-7ccf1cbe01b2)
 
+# Ressources
 
 ### Frontend
 
@@ -200,7 +213,7 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
   - [TechTarget - Generative AI](https://www.techtarget.com/searchenterpriseai/definition/generative-AI)
   - [GitHub Blog - Generative AI](https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/)
 
-Pour des ressources plus générales
+# Pour des ressources plus générales
 ### Agilité  
 - [Retromat](https://retromat.org/en/?id=31-123-37-73-77)  
   

@@ -24,18 +24,18 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
 
 ### Frontend
 
-- 🧠 **Blazor**
-  - [Blazor University](https://blazor-university.com/)
-  - [Microsoft Learn - Blazor](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-8.0)
-- 🧠 **Angular**
-  - [Angular Documentation](https://angular.io/docs)
-  - [YouTube - Angular Tutorial](https://www.youtube.com/watch?v=f7BJFTEbc10)
-  - [Udemy - Angular for Beginners](https://www.udemy.com/course/angular-for-beginners-course/)
 - 🧠 **React**
   - [React Documentation](https://react.dev/reference/react)
   - [YouTube - React Tutorial](https://www.youtube.com/watch?v=SqcY0GlETPk)
   - [Codecademy - Learn React](https://www.codecademy.com/learn/react-101)
   - [React TypeScript Cheatsheet](https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events)
+- 🧠 **Angular**
+  - [Angular Documentation](https://angular.dev/)
+  - [YouTube - Angular Tutorial](https://www.youtube.com/watch?v=f7BJFTEbc10)
+  - [Udemy - Angular for Beginners](https://www.udemy.com/course/angular-for-beginners-course/)
+- 🧠 **Blazor**
+  - [Blazor University](https://blazor-university.com/)
+  - [Microsoft Learn - Blazor](https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-8.0)
 
 ### Infra
 
@@ -160,11 +160,11 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
     - [CircleCI - What is a CI/CD Pipeline](https://circleci.com/blog/what-is-a-ci-cd-pipeline/)
     - [Microsoft Learn - YAML Pipelines Schema](https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/?view=azure-pipelines)
   - **IaC**
-    - **ARM Template**
-      - [Microsoft Learn - ARM Template](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
     - **Bicep**
       - [Microsoft Learn - Bicep](https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/)
       - [Microsoft Learn - Bicep Overview](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep)
+    - **ARM Template**
+      - [Microsoft Learn - ARM Template](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview)
     - **Terraform**
       - [HashiCorp - Terraform](https://developer.hashicorp.com/terraform/intro)
       - [Microsoft Learn - Terraform](https://learn.microsoft.com/en-us/azure/developer/terraform/overview)

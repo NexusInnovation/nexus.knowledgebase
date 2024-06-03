@@ -185,6 +185,38 @@
   - [I'd Rather Be Writing - Diataxis Documentation Framework](https://idratherbewriting.com/blog/what-is-diataxis-documentation-framework)
   - [Diataxis](https://diataxis.fr/)
 
+Pour des ressources plus générales
+### Agilité  
+- [Retromat](https://retromat.org/en/?id=31-123-37-73-77)  
+  
+### Certifications  
+- [Kubernetes Training](https://kubernetes.io/training/)  
+  
+### MVP Infra  
+- [Programming with Wolfgang](https://programmingwithwolfgang.com/)  
+  
+### Chaînes YouTube  
+- **Azure**  
+  - [Microsoft Azure](https://www.youtube.com/@MicrosoftAzure)  
+  - [Azure Friday](https://www.youtube.com/@MicrosoftDeveloper)  
+- **C#**  
+  - [dotnet](https://www.youtube.com/@dotnet)  
+  - [I Am Tim Corey](https://www.youtube.com/@IAmTimCorey)  
+- **General Veille**  
+  - [Fireship](https://www.youtube.com/@Fireship)  
+  - **Architecture - Discussions Haut Niveau**  
+    - [Code Opinion](https://www.youtube.com/@CodeOpinion)  
+  - **Explication de Concepts**  
+    - [Coding Tech](https://www.youtube.com/@CodingTech)  
+    - [Raw Coding](https://www.youtube.com/@RawCoding)  
+    - [Craft Computing](https://www.youtube.com/@CraftComputing)  
+- **DevOps**  
+  - [DevOps Toolkit](https://www.youtube.com/@DevOpsToolkit)  
+- **Discussion et Reactions**  
+  - [The Primeagen](https://www.youtube.com/@ThePrimeagen)  
+- **Frontend**  
+  - [t3dotgg](https://www.youtube.com/@t3dotgg)  
+
 ### AI
 
 - 🧠 **GenAI**

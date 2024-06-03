@@ -184,6 +184,13 @@
 - 🧠 **Diataxis**
   - [I'd Rather Be Writing - Diataxis Documentation Framework](https://idratherbewriting.com/blog/what-is-diataxis-documentation-framework)
   - [Diataxis](https://diataxis.fr/)
+ 
+### AI
+
+- 🧠 **GenAI**
+  - [Microsoft Learn - Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills&roles=ai-engineer)
+  - [TechTarget - Generative AI](https://www.techtarget.com/searchenterpriseai/definition/generative-AI)
+  - [GitHub Blog - Generative AI](https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/)
 
 Pour des ressources plus générales
 ### Agilité  
@@ -216,10 +223,3 @@ Pour des ressources plus générales
   - [The Primeagen](https://www.youtube.com/@ThePrimeagen)  
 - **Frontend**  
   - [t3dotgg](https://www.youtube.com/@t3dotgg)  
-
-### AI
-
-- 🧠 **GenAI**
-  - [Microsoft Learn - Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills&roles=ai-engineer)
-  - [TechTarget - Generative AI](https://www.techtarget.com/searchenterpriseai/definition/generative-AI)
-  - [GitHub Blog - Generative AI](https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/)

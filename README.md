@@ -1,3 +1,5 @@
+![image](https://github.com/NexusInnovation/nexus.knowledgebase/assets/16260956/e615dfe4-f4f8-431b-b643-642f5ebae1ff)
+
 ### Frontend
 
 - 🧠 **Blazor**

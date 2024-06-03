@@ -1,6 +1,9 @@
 Le MindMap suivant permet d'avoir un aperçu graphique de l'ensemble des outils que nous utilisons. Des couleurs ont été appliquées afin de vous aider à prioriser les éléments qui pourront vous servir. Voici leur codification et les raisons qui font que nous établissons une couleur pour un sujet :
+
 Vert : Important à court terme, on s'en sert déjà dans la grande majorité des projets ou ça fait parti de nos objectifs
+
 Jaune : Ça peut faire partie de nos solutions bien que ce ne soit pas nécessairement le cas. On est entrain de développer ce sujet pour l'utiliser davantage. Ça l'a déjà servi par le passé dans des solutions
+
 Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déjà servi, mais ça n'est plus tant le cas. On envisage s'en servir, mais la connaissance est très limitée et ça risque de prendre un peu de temps avant que ça soit la norme
 
 ![image](https://github.com/NexusInnovation/nexus.knowledgebase/assets/16260956/fc6c0df1-cc10-46cf-8a94-7ccf1cbe01b2)

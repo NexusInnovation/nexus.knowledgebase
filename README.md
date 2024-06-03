@@ -1,4 +1,5 @@
-![image](https://github.com/NexusInnovation/nexus.knowledgebase/assets/16260956/e615dfe4-f4f8-431b-b643-642f5ebae1ff)
+![image](https://github.com/NexusInnovation/nexus.knowledgebase/assets/16260956/fc6c0df1-cc10-46cf-8a94-7ccf1cbe01b2)
+
 
 ### Frontend
 

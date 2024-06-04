@@ -55,13 +55,13 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
     Backend --> REST  
     REST --> Swagger  
     Swagger --> SwaggerEditor["<a href='https://editor.swagger.io/'>Swagger Editor</a>"]  
-    Swagger --> SwaggerLearn["<a href='https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-8.0'>Microsoft Learn - Swagger</a>]  
+    Swagger --> SwaggerLearn["<a href='https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-8.0'>Microsoft Learn - Swagger</a>"]  
   
     Backend --> Architectures  
     Architectures --> LayeredArchitecture  
     LayeredArchitecture --> CleanArch  
-    CleanArch --> CleanArchGH["<a href='https://github.com/ardalis/CleanArchitecture'>GitHub - Clean Architecture</a>"]  
-    CleanArch --> CleanArchBreakdown["<a href='[https://github.com/ardalis/CleanArchitecture](https://codeopinion.com/clean-architecture-example-breakdown/)'>Code Opinion - Clean Architecture Example Breakdown</a>"]  
+    CleanArch --> CleanArchGH["<a href='https://github.com/ardalis/CleanArchitecture/'>GitHub - Clean Architecture</a>"]  
+    CleanArch --> CleanArchBreakdown["<a href='https://codeopinion.com/clean-architecture-example-breakdown/'>Code Opinion - Clean Architecture Example Breakdown</a>"]  
   
     LayeredArchitecture --> LayeredYT["<a href='https://www.youtube.com/watch?v=VbuJaH7mKIc'>YouTube - Architecture en couches</a>"]  
   
@@ -185,74 +185,74 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
     Azure["Azure"]  
 
     Azure --> AzureContainerApps  
-    AzureContainerApps --> ACAVideo1["[YouTube - Azure Container Apps](https://www.youtube.com/watch?v=yAtMgufv7Aw)"]  
-    AzureContainerApps --> ACAVideo2["[YouTube - Azure Container Apps](https://www.youtube.com/watch?v=yGrE_yKWo58)"]  
-    AzureContainerApps --> ACALearn["[Microsoft Learn - Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/overview)"]  
+    AzureContainerApps --> ACAVideo1["<a href='https://www.youtube.com/watch?v=yAtMgufv7Aw'>YouTube - Azure Container Apps</a>"]  
+    AzureContainerApps --> ACAVideo2["<a href='https://www.youtube.com/watch?v=yGrE_yKWo58'>YouTube - Azure Container Apps</a>"]  
+    AzureContainerApps --> ACALearn["<a href='https://learn.microsoft.com/en-us/azure/container-apps/overview'>Microsoft Learn - Azure Container Apps</a>"]  
   
     Azure --> AzureMonitoring  
     AzureMonitoring --> KQL  
-    KQL --> KQLAzure["[Azure Training - KQL](https://azure-training.com/azure-data-science/the-kusto-query-language/)"]  
-    KQL --> KQLPlural["[Pluralsight - KQL](https://www.pluralsight.com/resources/blog/cloud/what-is-kusto-query-language-kql)"]  
-    KQL --> KQLMS["[Microsoft Learn - KQL](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/)"]  
+    KQL --> KQLAzure["<a href='https://azure-training.com/azure-data-science/the-kusto-query-language/'>Azure Training - KQL</a>"]  
+    KQL --> KQLPlural["<a href='https://www.pluralsight.com/resources/blog/cloud/what-is-kusto-query-language-kql'>Pluralsight - KQL</a>"]  
+    KQL --> KQLMS["<a href='https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/'>Microsoft Learn - KQL</a>"]  
   
     AzureMonitoring --> MetricsAlerts  
-    MetricsAlerts --> AlertsOverview["[Microsoft Learn - Alerts Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview)"]  
+    MetricsAlerts --> AlertsOverview["<a href='https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview'>Microsoft Learn - Alerts Overview</a>"]  
   
     AzureMonitoring --> AppInsights  
-    AppInsights --> AppInsightsYT["[YouTube - App Insights](https://www.youtube.com/watch?v=A0jAeGf2zUQ)"]  
-    AppInsights --> AppInsightsLab["[Azure DevOps Labs](https://azuredevopslabs.com/labs/vsts/monitor/)"]  
-    AppInsights --> AppInsightsLearn["[Microsoft Learn - App Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)"]  
+    AppInsights --> AppInsightsYT["<a href='https://www.youtube.com/watch?v=A0jAeGf2zUQ'>YouTube - App Insights</a>"]  
+    AppInsights --> AppInsightsLab["<a href='https://azuredevopslabs.com/labs/vsts/monitor/'>Azure DevOps Labs</a>"]  
+    AppInsights --> AppInsightsLearn["<a href='https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview'>Microsoft Learn - App Insights</a>"]  
   
     Azure --> AzureNetworking  
     AzureNetworking --> Vnet  
-    Vnet --> VnetOverview["[Microsoft Learn - Vnet Overview](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)"]  
+    Vnet --> VnetOverview["<a href='https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview'>Microsoft Learn - Vnet Overview</a>"]  
   
     AzureNetworking --> AzureDNS  
-    AzureDNS --> DNSRecords["[Microsoft Learn - DNS Zones Records](https://learn.microsoft.com/en-us/azure/dns/dns-zones-records)"]  
+    AzureDNS --> DNSRecords["<a href='https://learn.microsoft.com/en-us/azure/dns/dns-zones-records'>Microsoft Learn - DNS Zones Records</a>"]  
   
     Azure --> AzureFunctionApps  
-    AzureFunctionApps --> FARevDebug["[Revdebug - Azure Functions](https://revdebug.com/blog/azure-functions-overview-use-cases/)"]  
-    AzureFunctionApps --> FAYT["[YouTube - Azure Functions](https://www.youtube.com/watch?v=Vxf-rOEO1q4)"]  
-    AzureFunctionApps --> FALearn["[Microsoft Learn - Functions Overview](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview?pivots=programming-language-csharp)"]  
+    AzureFunctionApps --> FARevDebug["<a href='https://revdebug.com/blog/azure-functions-overview-use-cases/'>Revdebug - Azure Functions</a>"]  
+    AzureFunctionApps --> FAYT["<a href='https://www.youtube.com/watch?v=Vxf-rOEO1q4'>YouTube - Azure Functions</a>"]  
+    AzureFunctionApps --> FALearn["<a href='https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview?pivots=programming-language-csharp'>Microsoft Learn - Functions Overview</a>"]  
   
     Azure --> AzureAKS  
-    AzureAKS --> AKSYT["[YouTube - AKS](https://www.youtube.com/watch?v=c4nTKMU6fBU)"]  
-    AzureAKS --> AKSLearn["[Microsoft Learn - AKS](https://learn.microsoft.com/en-us/azure/aks/what-is-aks)"]  
+    AzureAKS --> AKSYT["<a href='https://www.youtube.com/watch?v=c4nTKMU6fBU'>YouTube - AKS</a>"]  
+    AzureAKS --> AKSLearn["<a href='https://learn.microsoft.com/en-us/azure/aks/what-is-aks'>Microsoft Learn - AKS</a>"]  
   
     Azure --> AzureWebApps  
-    AzureWebApps --> WebAppsYT["[YouTube - WebApps](https://www.youtube.com/watch?v=4BwyqmRTrx8)"]  
-    AzureWebApps --> WebAppsLearn["[Microsoft Learn - WebApps Overview](https://learn.microsoft.com/en-us/azure/app-service/overview)"]  
+    AzureWebApps --> WebAppsYT["<a href='https://www.youtube.com/watch?v=4BwyqmRTrx8'>YouTube - WebApps</a>"]  
+    AzureWebApps --> WebAppsLearn["<a href='https://learn.microsoft.com/en-us/azure/app-service/overview'>Microsoft Learn - WebApps Overview</a>"]  
   
     Azure --> AzureMessaging  
     AzureMessaging --> QueueVSBus["Queue vs Azure Service Bus"]  
-    QueueVSBus --> QueueVSBusLearn["[Microsoft Learn - Comparison](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted)"]  
+    QueueVSBus --> QueueVSBusLearn["<a href='https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted'>Microsoft Learn - Comparison</a>"]  
   
     AzureMessaging --> Queues  
-    Queues --> QueuesLearn["[Microsoft Learn - Queues Introduction](https://learn.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction)"]  
+    Queues --> QueuesLearn["<a href='https://learn.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction'>Microsoft Learn - Queues Introduction</a>"]  
   
     AzureMessaging --> AzureEH  
-    AzureEH --> EHLearn["[Microsoft Learn - Event Hub](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about)"]  
+    AzureEH --> EHLearn["<a href='https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about'>Microsoft Learn - Event Hub</a>"]  
   
     AzureMessaging --> AzureEG  
-    AzureEG --> EGLearn["[Microsoft Learn - Event Grid](https://learn.microsoft.com/en-us/azure/event-grid/overview)"]  
+    AzureEG --> EGLearn["<a href='https://learn.microsoft.com/en-us/azure/event-grid/overview'>Microsoft Learn - Event Grid</a>"]  
   
     AzureMessaging --> AzureSB  
-    AzureSB --> SBLearn["[Microsoft Learn - Service Bus Overview](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)"]  
+    AzureSB --> SBLearn["<a href='https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview'>Microsoft Learn - Service Bus Overview</a>"]  
   
     Azure --> AzureStorage  
     AzureStorage --> BlobStorage  
-    BlobStorage --> BlobLearn["[Microsoft Learn - Storage Account Overview](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview)"]  
+    BlobStorage --> BlobLearn["<a href='https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview'>Microsoft Learn - Storage Account Overview</a>"]  
   
     Azure --> AzureDB  
     AzureDB --> AzureSQL  
     AzureSQL --> ElasticJobs  
-    ElasticJobs --> ElasticJobsLearn["[Microsoft Learn - Elastic Jobs](https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-jobs-overview?view=azuresql)"]  
+    ElasticJobs --> ElasticJobsLearn["<a href='https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-jobs-overview?view=azuresql'>Microsoft Learn - Elastic Jobs</a>"]  
   
     AzureSQL --> ElasticPools  
-    ElasticPools --> ElasticPoolsLearn["[Microsoft Learn - Elastic Pools](https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql)"]  
+    ElasticPools --> ElasticPoolsLearn["<a href='https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql'>Microsoft Learn - Elastic Pools</a>"]  
   
     AzureSQL --> SQLSync  
-    SQLSync --> SQLSyncLearn["[Microsoft Learn - SQL Sync](https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-data-sync-data-sql-server-sql-database?view=azuresql)"]
+    SQLSync --> SQLSyncLearn["<a href='https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-data-sync-data-sql-server-sql-database?view=azuresql'>Microsoft Learn - SQL Sync</a>"]
 
     classDef redNodes fill:#F66,stroke:#000;
     classDef yellowNodes fill:#FFEF80,stroke:#000;
@@ -268,9 +268,9 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
     AI["AI"]  
 
     AI --> GenAI  
-    GenAI --> GenAISkills["[Microsoft Learn - Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills&roles=ai-engineer)"]  
-    GenAI --> GenAITheory["[TechTarget - Generative AI](https://www.techtarget.com/searchenterpriseai/definition/generative-AI)"]  
-    GenAI --> GenAIGitHub["[GitHub Blog - Generative AI](https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/)"]
+    GenAI --> GenAISkills["<a href='https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills&roles=ai-engineer'>Microsoft Learn - Applied Skills</a>"]  
+    GenAI --> GenAITheory["<a href='https://www.techtarget.com/searchenterpriseai/definition/generative-AI'>TechTarget - Generative AI</a>"]  
+    GenAI --> GenAIGitHub["<a href='https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/'>GitHub Blog - Generative AI</a>"]
 
     classDef redNodes fill:#F66,stroke:#000;
     classDef yellowNodes fill:#FFEF80,stroke:#000;

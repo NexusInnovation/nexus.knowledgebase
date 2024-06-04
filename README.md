@@ -37,9 +37,9 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
     Blazor --> BlazorUni["<a href='https://blazor-university.com/'>Blazor University</a>"]  
     Blazor --> BlazorMS["<a href='https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-8.0'>Microsoft Learn - Blazor</a>"]
 
-    classDef redNodes fill:#F66,stroke:#000;
-    classDef yellowNodes fill:#FFEF80,stroke:#000;
-    classDef greenNodes fill:#66FF66,stroke:#000;
+    classDef redNodes fill:#F66,stroke:#000,color:#000;
+    classDef yellowNodes fill:#FFEF80,stroke:#000,color:#000;
+    classDef greenNodes fill:#66FF66,stroke:#000,color:#000;
 
     class Frontend,React greenNodes;
     class Blazor yellowNodes;
@@ -90,9 +90,9 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
   
     DotNet --> ASPNetCore["<a href='https://learn.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-8.0?view=aspnetcore-8.0'>Microsoft Learn - ASP.NET Core 8.0</a>"]
 
-    classDef redNodes fill:#F66,stroke:#000;
-    classDef yellowNodes fill:#FFEF80,stroke:#000;
-    classDef greenNodes fill:#66FF66,stroke:#000;
+    classDef redNodes fill:#F66,stroke:#000,color:#000;
+    classDef yellowNodes fill:#FFEF80,stroke:#000,color:#000;
+    classDef greenNodes fill:#66FF66,stroke:#000,color:#000;
 
     class Backend,IoC,SOLID,REST,Swagger,Architectures,LayeredArchitecture,CleanArch,VerticalArchitecture,DotNet,EF,FluentValidations,MediatR,AutoMapper greenNodes;
 ```
@@ -171,9 +171,9 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
       Diataxis --> DiataxisBlog["<a href='https://idratherbewriting.com/blog/what-is-diataxis-documentation-framework'>I'd Rather Be Writing - Diataxis Documentation Framework</a>"]  
       Diataxis --> DiataxisFr["<a href='https://diataxis.fr/'>Diataxis</a>"]
 
-      classDef redNodes fill:#F66,stroke:#000;
-      classDef yellowNodes fill:#FFEF80,stroke:#000;
-      classDef greenNodes fill:#66FF66,stroke:#000;
+      classDef redNodes fill:#F66,stroke:#000,color:#000;
+      classDef yellowNodes fill:#FFEF80,stroke:#000,color:#000;
+      classDef greenNodes fill:#66FF66,stroke:#000,color:#000;
 
       class DevOps,CICD,Pipelines,IaC,Bicep,Git,TrunkBased,AutomatedTests,UnitTests,MockingFrameworks,Assertions,AutoInstances,TestingFrameworks,IntegrationTesting,CodeCoverage, greenNodes;
       class FeatureFlags,BlueGreen,E2ETesting,MutationTesting,Documentation,Diataxis yellowNodes;
@@ -254,9 +254,9 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
     AzureSQL --> SQLSync  
     SQLSync --> SQLSyncLearn["<a href='https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-data-sync-data-sql-server-sql-database?view=azuresql'>Microsoft Learn - SQL Sync</a>"]
 
-    classDef redNodes fill:#F66,stroke:#000;
-    classDef yellowNodes fill:#FFEF80,stroke:#000;
-    classDef greenNodes fill:#66FF66,stroke:#000;
+    classDef redNodes fill:#F66,stroke:#000,color:#000;
+    classDef yellowNodes fill:#FFEF80,stroke:#000,color:#000;
+    classDef greenNodes fill:#66FF66,stroke:#000,color:#000;
 
     class Azure,AzureMonitoring,AppInsights,AzureFunctionApps,AzureWebApps,AzureStorage,BlobStorage,AzureDB,AzureSQL greenNodes;
     class KQL,MetricsAlerts,AzureNetworking,Vnet,AzureDNS,AzureMessaging,Queues,AzureEH,AzureEG,AzureSB,ElasticJobs,ElasticPools yellowNodes;
@@ -272,9 +272,9 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
     GenAI --> GenAITheory["<a href='https://www.techtarget.com/searchenterpriseai/definition/generative-AI'>TechTarget - Generative AI</a>"]  
     GenAI --> GenAIGitHub["<a href='https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/'>GitHub Blog - Generative AI</a>"]
 
-    classDef redNodes fill:#F66,stroke:#000;
-    classDef yellowNodes fill:#FFEF80,stroke:#000;
-    classDef greenNodes fill:#66FF66,stroke:#000;
+    classDef redNodes fill:#F66,stroke:#000,color:#000;
+    classDef yellowNodes fill:#FFEF80,stroke:#000,color:#000;
+    classDef greenNodes fill:#66FF66,stroke:#000,color:#000;
 
     class AI,GenAI greenNodes;
 ```

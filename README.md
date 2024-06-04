@@ -399,7 +399,7 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
 - 🧠 **.Net**
   - **Entity Framework**
     - [GitHub - Entity Framework](https://github.com/dotnet/efcore)
-  - **Fluent Validations**
+  - **Fluent Validation**
     - [Fluent Validation Documentation](https://docs.fluentvalidation.net/en/latest/)
   - **MediatR**
     - [GitHub - MediatR](https://github.com/jbogard/MediatR)

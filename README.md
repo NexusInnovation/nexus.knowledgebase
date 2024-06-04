@@ -18,7 +18,266 @@ Jaune : Ça peut faire partie de nos solutions bien que ce ne soit pas nécessai
 
 Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déjà servi, mais ça n'est plus tant le cas. On envisage s'en servir, mais la connaissance est très limitée et ça risque de prendre un peu de temps avant que ça soit la norme
 
-![image](https://github.com/NexusInnovation/nexus.knowledgebase/assets/16260956/fc6c0df1-cc10-46cf-8a94-7ccf1cbe01b2)
+```mermaid
+  graph LR
+    Frontend["Frontend"]  
+ 
+    Frontend --> React  
+    React --> ReactDoc["<a href='https://react.dev/reference/react'>React Documentation</a>"]  
+    React --> ReactYT["<a href='https://www.youtube.com/watch?v=SqcY0GlETPk'>YouTube - React Tutorial</a>"]  
+    React --> ReactCodecademy["<a href='https://www.codecademy.com/learn/react-101'>Codecademy - Learn React</a>"]  
+    React --> ReactTS["<a href='https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/forms_and_events'>React TypeScript Cheatsheet</a>"]  
+  
+    Frontend --> Angular  
+    Angular --> AngularDoc["<a href='https://angular.dev/'>Angular Documentation</a>"]  
+    Angular --> AngularYT["<a href='https://www.youtube.com/watch?v=f7BJFTEbc10'>YouTube - Angular Tutorial</a>"]  
+    Angular --> AngularUdemy["<a href='https://www.udemy.com/course/angular-for-beginners-course/'>Udemy - Angular for Beginners</a>"]  
+  
+    Frontend --> Blazor  
+    Blazor --> BlazorUni["<a href='https://blazor-university.com/'>Blazor University</a>"]  
+    Blazor --> BlazorMS["<a href='https://learn.microsoft.com/en-us/aspnet/core/blazor/?view=aspnetcore-8.0'>Microsoft Learn - Blazor</a>"]
+
+    classDef redNodes fill:#F66,stroke:#000;
+    classDef yellowNodes fill:#FFEF80,stroke:#000;
+    classDef greenNodes fill:#66FF66,stroke:#000;
+
+    class Frontend,React greenNodes;
+    class Blazor yellowNodes;
+    class Angular redNodes;
+```
+
+```mermaid
+  graph LR
+    Backend --> SOLID  
+    SOLID --> BaeldungSOLID["<a href='https://www.baeldung.com/solid-principles'>Baeldung - SOLID Principles</a>"]  
+    SOLID --> PluralSOLID["<a href='https://www.pluralsight.com/courses/encapsulation-solid'>Pluralsight - Encapsulation & SOLID</a>"]  
+  
+    Backend --> REST  
+    REST --> Swagger  
+    Swagger --> SwaggerEditor["<a href='https://editor.swagger.io/'>Swagger Editor</a>"]  
+    Swagger --> SwaggerLearn["<a href='https://learn.microsoft.com/en-us/aspnet/core/tutorials/web-api-help-pages-using-swagger?view=aspnetcore-8.0'>Microsoft Learn - Swagger</a>]  
+  
+    Backend --> Architectures  
+    Architectures --> LayeredArchitecture  
+    LayeredArchitecture --> CleanArch  
+    CleanArch --> CleanArchGH["<a href='https://github.com/ardalis/CleanArchitecture'>GitHub - Clean Architecture</a>"]  
+    CleanArch --> CleanArchBreakdown["<a href='[https://github.com/ardalis/CleanArchitecture](https://codeopinion.com/clean-architecture-example-breakdown/)'>Code Opinion - Clean Architecture Example Breakdown</a>"]  
+  
+    LayeredArchitecture --> LayeredYT["<a href='https://www.youtube.com/watch?v=VbuJaH7mKIc'>YouTube - Architecture en couches</a>"]  
+  
+    Architectures --> VerticalArchitecture  
+    VerticalArchitecture --> VerticalYT1["<a href='https://www.youtube.com/watch?v=L2Wnq0ChAIA'>YouTube - Architecture vertical</a>"]  
+    VerticalArchitecture --> VerticalYT2["<a href='https://www.youtube.com/watch?v=oAoaMlS1PWo'>YouTube - Architecture vertical</a>"]  
+    VerticalArchitecture --> VerticalBlog["<a href='https://www.milanjovanovic.tech/blog/vertical-slice-architecture'>Milan Jovanovic - Vertical Slice Architecture</a>"]  
+  
+    Backend --> IoC  
+    IoC --> DI_MS["<a href='https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection'>Microsoft Learn - Dependency Injection</a>"]  
+    IoC --> DI_Principles["<a href='https://learn.microsoft.com/en-us/dotnet/architecture/modern-web-apps-azure/architectural-principles#dependency-inversion'>Microsoft Learn - Dependency Inversion</a>"]  
+  
+    Backend --> DotNet  
+    DotNet --> EF["Entity Framework"]  
+    EF --> EFGH["<a href='https://github.com/dotnet/efcore'>GitHub - Entity Framework</a>"]  
+  
+    DotNet --> FluentValidations  
+    FluentValidations --> FluentDocs["<a href='https://docs.fluentvalidation.net/en/latest/'>Fluent Validation Documentation</a>"]  
+  
+    DotNet --> MediatR  
+    MediatR --> MediatRGH["<a href='https://github.com/jbogard/MediatR'>GitHub - MediatR</a>"]  
+  
+    DotNet --> AutoMapper  
+    AutoMapper --> AutoMapperOrg["<a href='https://automapper.org/'>AutoMapper</a>"]  
+    AutoMapper --> AutoMapperGH["<a href='https://github.com/AutoMapper/AutoMapper'>GitHub - AutoMapper</a>"]  
+  
+    DotNet --> ASPNetCore["<a href='https://learn.microsoft.com/en-us/aspnet/core/release-notes/aspnetcore-8.0?view=aspnetcore-8.0'>Microsoft Learn - ASP.NET Core 8.0</a>"]
+
+    classDef redNodes fill:#F66,stroke:#000;
+    classDef yellowNodes fill:#FFEF80,stroke:#000;
+    classDef greenNodes fill:#66FF66,stroke:#000;
+
+    class Backend,IoC,SOLID,REST,Swagger,Architectures,LayeredArchitecture,CleanArch,VerticalArchitecture,DotNet,EF,FluentValidations,MediatR,AutoMapper greenNodes;
+```
+
+```mermaid
+  graph LR
+    DevOps["DevOps"]
+  
+      DevOps --> CICD  
+      CICD --> FeatureFlags  
+      FeatureFlags --> FF_Blog["<a href='https://timdeschryver.dev/blog/feature-flags-in-net-from-simple-to-more-advanced#azure-feature-management'>Tim Deschryver - Feature Flags in .NET</a>"]  
+    
+      CICD --> BlueGreen  
+      BlueGreen --> BlueGreenAcademy["<a href='https://k21academy.com/microsoft-azure/az-303/blue-green-deployment-in-azure/'>K21 Academy - Blue/Green Deployment in Azure</a>"]  
+    
+      CICD --> Pipelines  
+      Pipelines --> CircleCIPipelines["<a href='https://circleci.com/blog/what-is-a-ci-cd-pipeline/'>CircleCI - What is a CI/CD Pipeline</a>"]  
+      Pipelines --> YAMLMS["<a href='https://learn.microsoft.com/en-us/azure/devops/pipelines/yaml-schema/?view=azure-pipelines'>Microsoft Learn - YAML Pipelines Schema</a>"]  
+    
+      CICD --> IaC  
+      IaC --> Bicep  
+      Bicep --> BicepLearn["<a href='https://learn.microsoft.com/en-us/training/paths/fundamentals-bicep/'>Microsoft Learn - Bicep</a>"]  
+      Bicep --> BicepOverview["<a href='https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview?tabs=bicep'>Microsoft Learn - Bicep Overview</a>"]  
+    
+      IaC --> ARM  
+      ARM --> ARMLearn["<a href='https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview'>Microsoft Learn - ARM Template</a>"]  
+    
+      IaC --> Terraform  
+      Terraform --> TerraformIntro["<a href='https://developer.hashicorp.com/terraform/intro'>HashiCorp - Terraform</a>"]  
+      Terraform --> TerraformLearn["<a href='https://learn.microsoft.com/en-us/azure/developer/terraform/overview'>Microsoft Learn - Terraform</a>"]  
+      Terraform --> TerraformResourceGroup["<a href='https://learn.microsoft.com/en-us/azure/developer/terraform/create-resource-group?tabs=azure-cli'>Microsoft Learn - Create Resource Group</a>"]  
+    
+      CICD --> Git  
+      Git --> GitTutorial["<a href='https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners'>HubSpot - Git and GitHub Tutorial for Beginners</a>"]  
+    
+      CICD --> TrunkBased  
+      TrunkBased --> TrunkAtlassian["<a href='https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development'>Atlassian - Trunk-based Development</a>"]  
+    
+      DevOps --> AutomatedTests  
+      AutomatedTests --> UnitTests  
+      UnitTests --> UnitTestingDotNet["<a href='https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-dotnet-test'>Microsoft Learn - Unit Testing with .NET</a>"]  
+    
+      UnitTests --> MockingFrameworks  
+      MockingFrameworks --> FakeItEasy["<a href='https://fakeiteasy.github.io/'>FakeItEasy</a>"]  
+      MockingFrameworks --> NSubstitute["<a href='https://nsubstitute.github.io/'>NSubstitute</a>"]  
+    
+      UnitTests --> Assertions  
+      Assertions --> FluentAssertions["<a href='https://fluentassertions.com/'>Fluent Assertions</a>"]  
+    
+      UnitTests --> AutoInstances  
+      AutoInstances --> AutoFixture["<a href='https://github.com/AutoFixture/AutoFixture'>AutoFixture</a>"]  
+      AutoInstances --> FakerJS["<a href='https://fakerjs.dev/'>Faker.js</a>"]  
+    
+      UnitTests --> TestingFrameworks  
+      TestingFrameworks --> xUnit["<a href='https://xunit.net/'>xUnit</a>"]  
+      TestingFrameworks --> Jest["<a href='https://jestjs.io/'>Jest</a>"]  
+      TestingFrameworks --> MSTest["<a href='https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-with-mstest'>Microsoft Learn - MSTest</a>"]  
+    
+      AutomatedTests --> IntegrationTesting  
+      IntegrationTesting --> IntegrationGeeks["<a href='https://www.geeksforgeeks.org/software-engineering-integration-testing/'>GeeksforGeeks - Integration Testing</a>"]  
+    
+      AutomatedTests --> E2ETesting  
+      E2ETesting --> Playwright["<a href='https://playwright.dev/'>Playwright</a>"]  
+      E2ETesting --> TestCafe["<a href='https://testcafe.io/'>TestCafe</a>"]  
+    
+      AutomatedTests --> CodeCoverage  
+      CodeCoverage --> AtlassianCoverage["<a href='https://www.atlassian.com/continuous-delivery/software-testing/code-coverage'>Atlassian - Code Coverage</a>"]  
+    
+      AutomatedTests --> MutationTesting  
+      MutationTesting --> MutationGeeks["<a href='https://www.geeksforgeeks.org/software-testing-mutation-testing/'>GeeksforGeeks - Mutation Testing</a>"]  
+      MutationTesting --> Stryker["<a href='https://stryker-mutator.io/'>Stryker Mutator</a>"]  
+      MutationTesting --> NexusMutation["<a href='https://github.com/NexusInnovation/nexlab.mutationtesting'>GitHub - Nexus Innovation</a>"]  
+
+      DevOps --> Documentation
+      Documentation --> Diataxis  
+      Diataxis --> DiataxisBlog["<a href='https://idratherbewriting.com/blog/what-is-diataxis-documentation-framework'>I'd Rather Be Writing - Diataxis Documentation Framework</a>"]  
+      Diataxis --> DiataxisFr["<a href='https://diataxis.fr/'>Diataxis</a>"]
+
+      classDef redNodes fill:#F66,stroke:#000;
+      classDef yellowNodes fill:#FFEF80,stroke:#000;
+      classDef greenNodes fill:#66FF66,stroke:#000;
+
+      class DevOps,CICD,Pipelines,IaC,Bicep,Git,TrunkBased,AutomatedTests,UnitTests,MockingFrameworks,Assertions,AutoInstances,TestingFrameworks,IntegrationTesting,CodeCoverage, greenNodes;
+      class FeatureFlags,BlueGreen,E2ETesting,MutationTesting,Documentation,Diataxis yellowNodes;
+      class ARM,Terraform redNodes;
+```
+
+```mermaid
+  graph LR
+    Azure["Azure"]  
+
+    Azure --> AzureContainerApps  
+    AzureContainerApps --> ACAVideo1["[YouTube - Azure Container Apps](https://www.youtube.com/watch?v=yAtMgufv7Aw)"]  
+    AzureContainerApps --> ACAVideo2["[YouTube - Azure Container Apps](https://www.youtube.com/watch?v=yGrE_yKWo58)"]  
+    AzureContainerApps --> ACALearn["[Microsoft Learn - Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/overview)"]  
+  
+    Azure --> AzureMonitoring  
+    AzureMonitoring --> KQL  
+    KQL --> KQLAzure["[Azure Training - KQL](https://azure-training.com/azure-data-science/the-kusto-query-language/)"]  
+    KQL --> KQLPlural["[Pluralsight - KQL](https://www.pluralsight.com/resources/blog/cloud/what-is-kusto-query-language-kql)"]  
+    KQL --> KQLMS["[Microsoft Learn - KQL](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/)"]  
+  
+    AzureMonitoring --> MetricsAlerts  
+    MetricsAlerts --> AlertsOverview["[Microsoft Learn - Alerts Overview](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview)"]  
+  
+    AzureMonitoring --> AppInsights  
+    AppInsights --> AppInsightsYT["[YouTube - App Insights](https://www.youtube.com/watch?v=A0jAeGf2zUQ)"]  
+    AppInsights --> AppInsightsLab["[Azure DevOps Labs](https://azuredevopslabs.com/labs/vsts/monitor/)"]  
+    AppInsights --> AppInsightsLearn["[Microsoft Learn - App Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)"]  
+  
+    Azure --> AzureNetworking  
+    AzureNetworking --> Vnet  
+    Vnet --> VnetOverview["[Microsoft Learn - Vnet Overview](https://learn.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview)"]  
+  
+    AzureNetworking --> AzureDNS  
+    AzureDNS --> DNSRecords["[Microsoft Learn - DNS Zones Records](https://learn.microsoft.com/en-us/azure/dns/dns-zones-records)"]  
+  
+    Azure --> AzureFunctionApps  
+    AzureFunctionApps --> FARevDebug["[Revdebug - Azure Functions](https://revdebug.com/blog/azure-functions-overview-use-cases/)"]  
+    AzureFunctionApps --> FAYT["[YouTube - Azure Functions](https://www.youtube.com/watch?v=Vxf-rOEO1q4)"]  
+    AzureFunctionApps --> FALearn["[Microsoft Learn - Functions Overview](https://learn.microsoft.com/en-us/azure/azure-functions/functions-overview?pivots=programming-language-csharp)"]  
+  
+    Azure --> AzureAKS  
+    AzureAKS --> AKSYT["[YouTube - AKS](https://www.youtube.com/watch?v=c4nTKMU6fBU)"]  
+    AzureAKS --> AKSLearn["[Microsoft Learn - AKS](https://learn.microsoft.com/en-us/azure/aks/what-is-aks)"]  
+  
+    Azure --> AzureWebApps  
+    AzureWebApps --> WebAppsYT["[YouTube - WebApps](https://www.youtube.com/watch?v=4BwyqmRTrx8)"]  
+    AzureWebApps --> WebAppsLearn["[Microsoft Learn - WebApps Overview](https://learn.microsoft.com/en-us/azure/app-service/overview)"]  
+  
+    Azure --> AzureMessaging  
+    AzureMessaging --> QueueVSBus["Queue vs Azure Service Bus"]  
+    QueueVSBus --> QueueVSBusLearn["[Microsoft Learn - Comparison](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-azure-and-service-bus-queues-compared-contrasted)"]  
+  
+    AzureMessaging --> Queues  
+    Queues --> QueuesLearn["[Microsoft Learn - Queues Introduction](https://learn.microsoft.com/en-us/azure/storage/queues/storage-queues-introduction)"]  
+  
+    AzureMessaging --> AzureEH  
+    AzureEH --> EHLearn["[Microsoft Learn - Event Hub](https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about)"]  
+  
+    AzureMessaging --> AzureEG  
+    AzureEG --> EGLearn["[Microsoft Learn - Event Grid](https://learn.microsoft.com/en-us/azure/event-grid/overview)"]  
+  
+    AzureMessaging --> AzureSB  
+    AzureSB --> SBLearn["[Microsoft Learn - Service Bus Overview](https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview)"]  
+  
+    Azure --> AzureStorage  
+    AzureStorage --> BlobStorage  
+    BlobStorage --> BlobLearn["[Microsoft Learn - Storage Account Overview](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview)"]  
+  
+    Azure --> AzureDB  
+    AzureDB --> AzureSQL  
+    AzureSQL --> ElasticJobs  
+    ElasticJobs --> ElasticJobsLearn["[Microsoft Learn - Elastic Jobs](https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-jobs-overview?view=azuresql)"]  
+  
+    AzureSQL --> ElasticPools  
+    ElasticPools --> ElasticPoolsLearn["[Microsoft Learn - Elastic Pools](https://learn.microsoft.com/en-us/azure/azure-sql/database/elastic-pool-overview?view=azuresql)"]  
+  
+    AzureSQL --> SQLSync  
+    SQLSync --> SQLSyncLearn["[Microsoft Learn - SQL Sync](https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-data-sync-data-sql-server-sql-database?view=azuresql)"]
+
+    classDef redNodes fill:#F66,stroke:#000;
+    classDef yellowNodes fill:#FFEF80,stroke:#000;
+    classDef greenNodes fill:#66FF66,stroke:#000;
+
+    class Azure,AzureMonitoring,AppInsights,AzureFunctionApps,AzureWebApps,AzureStorage,BlobStorage,AzureDB,AzureSQL greenNodes;
+    class KQL,MetricsAlerts,AzureNetworking,Vnet,AzureDNS,AzureMessaging,Queues,AzureEH,AzureEG,AzureSB,ElasticJobs,ElasticPools yellowNodes;
+    class AzureContainerApps,AzureAKS,SQLSync redNodes;
+```
+
+```mermaid
+  graph LR
+    AI["AI"]  
+
+    AI --> GenAI  
+    GenAI --> GenAISkills["[Microsoft Learn - Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills&roles=ai-engineer)"]  
+    GenAI --> GenAITheory["[TechTarget - Generative AI](https://www.techtarget.com/searchenterpriseai/definition/generative-AI)"]  
+    GenAI --> GenAIGitHub["[GitHub Blog - Generative AI](https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/)"]
+
+    classDef redNodes fill:#F66,stroke:#000;
+    classDef yellowNodes fill:#FFEF80,stroke:#000;
+    classDef greenNodes fill:#66FF66,stroke:#000;
+
+    class AI,GenAI greenNodes;
+```
 
 # Ressources
 
@@ -140,7 +399,7 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
 - 🧠 **.Net**
   - **Entity Framework**
     - [GitHub - Entity Framework](https://github.com/dotnet/efcore)
-  - **Fluent Assertions**
+  - **Fluent Validations**
     - [Fluent Validation Documentation](https://docs.fluentvalidation.net/en/latest/)
   - **MediatR**
     - [GitHub - MediatR](https://github.com/jbogard/MediatR)

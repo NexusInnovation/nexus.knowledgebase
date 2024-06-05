@@ -272,11 +272,17 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
     GenAI --> GenAITheory["<a href='https://www.techtarget.com/searchenterpriseai/definition/generative-AI'>TechTarget - Generative AI</a>"]  
     GenAI --> GenAIGitHub["<a href='https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/'>GitHub Blog - Generative AI</a>"]
 
+    AI --> PromptEngineering
+    PromptEngineering --> Tips&Tricks["<a href='https://github.com/brexhq/prompt-engineering?tab=readme-ov-file'>Brex Tips & Tricks"]
+
+    AI --> OpenAI
+    OpenAI --> Cookbook["<a href='https://github.com/openai/openai-cookbook/tree/main'>OpenAI Cookbook"]
+
     classDef redNodes fill:#F66,stroke:#000,color:#000;
     classDef yellowNodes fill:#FFEF80,stroke:#000,color:#000;
     classDef greenNodes fill:#66FF66,stroke:#000,color:#000;
 
-    class AI,GenAI greenNodes;
+    class AI,GenAI,PromptEngineering,OpenAI, greenNodes;
 ```
 
 # Ressources
@@ -471,6 +477,12 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
   - [Microsoft Learn - Applied Skills](https://learn.microsoft.com/en-us/credentials/browse/?credential_types=applied%20skills&roles=ai-engineer)
   - [TechTarget - Generative AI](https://www.techtarget.com/searchenterpriseai/definition/generative-AI)
   - [GitHub Blog - Generative AI](https://github.blog/2023-04-07-what-developers-need-to-know-about-generative-ai/)
+
+- 🧠 **Prompt Engineering**
+  - [Tips and tricks for working with Large Language Models like OpenAI's GPT-4](https://github.com/brexhq/prompt-engineering?tab=readme-ov-file)
+
+- 🧠 **Open AI**
+  - [OpenAI Cookbook](https://github.com/openai/openai-cookbook/tree/main)  
 
 # Pour des ressources plus générales
 ### Agilité  

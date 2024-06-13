@@ -265,6 +265,52 @@ Rouge : Peut être pertinent dans des cas particuliers. Nous nous en sommes déj
 
 ```mermaid
   graph LR
+    Containers --> Docker  
+    Docker --> DockerCurriculum["<a href='https://docker-curriculum.com/'>Docker Curriculum</a>"]  
+    Docker --> DockerCrash["<a href='https://www.youtube.com/watch?v=pg19Z8LL06w'>YouTube - Docker Crash Course</a>"]  
+  
+    Containers --> K8s  
+    K8s --> K8sYT["<a href='https://www.youtube.com/watch?v=s_o8dwzRlu4'>YouTube - Kubernetes in 1h</a>"]  
+    K8s --> K8sRedHat["<a href='https://www.redhat.com/en/topics/containers/what-is-kubernetes'>Red Hat - What is Kubernetes</a>"]  
+  
+    Containers --> DockerCompose  
+    DockerCompose --> DockerComposeDoc["<a href='https://docs.docker.com/compose/'>Docker Compose Documentation</a>"]
+    DockerCompose --> DockerComposeYT["<a href='https://www.youtube.com/watch?v=SXwC9fSwct8'>YouTube - Docker Compose in 1h</a>"]
+
+    classDef redNodes fill:#F66,stroke:#000,color:#000;
+    classDef yellowNodes fill:#FFEF80,stroke:#000,color:#000;
+
+    class Containers,Docker yellowNodes;
+    class K8s,DockerCompose redNodes;
+```
+
+```mermaid
+  graph LR
+    Security --> OWASPTop10["OWASP Top 10"]  
+    OWASPTop10 --> OWASPLink["<a href='https://owasp.org/www-project-top-ten/'>OWASP Top 10</a>"]  
+  
+    Security --> Authorization  
+    Authorization --> Keycloak  
+    Keycloak --> KeycloakBlog["<a href='https://pretius.com/blog/keycloak-sso/'>Pretius - Keycloak SSO</a>"]  
+    Keycloak --> KeycloakGH["<a href='https://github.com/keycloak/keycloak'>GitHub - Keycloak</a>"]  
+  
+    Authorization --> EntraID  
+    EntraID --> EntraIDLink["<a href='https://learn.microsoft.com/en-us/entra/fundamentals/whatis'>Microsoft Learn - Entra ID</a>"]  
+  
+    Authorization --> AzureB2C  
+    AzureB2C --> AzureB2CGH["<a href='https://github.com/NexusInnovation/nexlab.b2c'>GitHub - Nexus Innovation</a>"]  
+    AzureB2C --> AzureB2CLearn["<a href='https://learn.microsoft.com/en-us/azure/active-directory-b2c/overview'>Microsoft Learn - Azure B2C</a>"]
+
+    classDef redNodes fill:#F66,stroke:#000,color:#000;
+    classDef yellowNodes fill:#FFEF80,stroke:#000,color:#000;
+    classDef greenNodes fill:#66FF66,stroke:#000,color:#000;
+
+    class Security,OWASPTop10,Authorization,EntraID, greenNodes;
+    class Keycloak,AzureB2C yellowNodes;
+```
+
+```mermaid
+  graph LR
     AI["AI"]  
 
     AI --> GenAI  
